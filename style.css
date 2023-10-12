@@ -11,18 +11,22 @@
 }
 
 .wrapper {
-overflow-x: hidden;
-position: relative;
-display: flex;
-background-color: black;
-background-image: url(MosaicWallpaper.png);
-background-size: cover;
-background-position: top;
-flex-direction: column;
-align-items: center;
+    overflow-x: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 body {
+
+    background-color: black;
+    background-image: url(MosaicWallpaper.png);
+    background-size: cover;
+    background-position: top;
+
+    align-items: center;
 
 }
 
@@ -108,6 +112,8 @@ li {
     height: auto;
     right: 87vw;
     rotate: 30deg;
+    
+    overflow-x: hidden;
 }
 
 .imgright {
@@ -116,6 +122,7 @@ li {
     height: auto;
     left: 87vw;
     rotate: -30deg;
+    overflow-x: hidden;
 
 }
 
@@ -124,6 +131,7 @@ li {
     width: 30vw;
     rotate: 18deg;
     right: 90vw;
+    overflow-x: hidden;
 }
 
 #Kurisu {
@@ -131,6 +139,7 @@ li {
     width: 32vw;
     rotate: -50deg;
     left: 80vw;
+    overflow-x: hidden;
 }
 
 #Flame506 {
@@ -138,4 +147,5 @@ li {
     width: 22vw;
     rotate: -34deg;
     left: 88vw;
+    overflow-x: hidden;
 }
