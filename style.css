@@ -9,7 +9,7 @@
     padding-top: 8vw;
     margin: -3%;
 }
-
+ 
 body {
     display: flex;
     background-color: black;
@@ -36,6 +36,7 @@ article {
     font-family: 'Times New Roman', 'Comic Sans MS';
     border-radius: 2em;
     width: 50vw;
+    overflow-x: hidden;
 }
 
 h1,
@@ -44,7 +45,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: NewComicTitle, 'Comic Sans MS', Courier, monospace;
+    font-family: NewComicTitle, Courier, monospace, 'Comic Sans MS';
     text-align: center;
     color: yellow;
     text-shadow: 1vw 1vw black;
@@ -79,6 +80,7 @@ iframe {
     width: 48vw;
     height: 27vw;
     margin: 1vw 0vw;
+    overflow-x: hidden;
 }
 
 ul {
