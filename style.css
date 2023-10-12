@@ -7,27 +7,23 @@
     width: 30vw;
     padding: 0;
     padding-top: 8vw;
-    margin: -3%;
     overflow-x: hidden
 }
- 
-head  {
-    overflow-x: hidden
+
+.wrapper {
+overflow-x: hidden;
+position: relative;
+display: flex;
+background-color: black;
+background-image: url(MosaicWallpaper.png);
+background-size: cover;
+background-position: top;
+flex-direction: column;
+align-items: center;
 }
 
 body {
-    display: flex;
-    background-color: black;
-    background-image: url(MosaicWallpaper.png);
-    background-size: cover;
-    background-position: top;
-    flex-direction: column;
-    align-items: center;
-    overflow-x: hidden;
-}
 
-.box {
-    margin: 0 20%;
 }
 
 article {
