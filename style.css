@@ -25,7 +25,6 @@ body {
     background-image: url(MosaicWallpaper.png);
     background-size: cover;
     background-position: top;
-
     align-items: center;
 
 }
@@ -35,15 +34,18 @@ article {
     color: white;
     border: .4em solid yellow;
     padding: 0 7vw;
-    margin: 2vw;
+    margin: 2vh;
     font-size: 3vw;
     text-align: center;
     font-family: 'Times New Roman', 'Comic Sans MS';
     border-radius: 2em;
-    width: 50vw;
+    width: 75vw;
     overflow-x: hidden;
 }
 
+p{
+    font-size: 3vw;
+}
 h1,
 h2,
 h3,
