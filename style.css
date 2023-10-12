@@ -8,8 +8,13 @@
     padding: 0;
     padding-top: 8vw;
     margin: -3%;
+    overflow-x: hidden
 }
  
+head  {
+    overflow-x: hidden
+}
+
 body {
     display: flex;
     background-color: black;
