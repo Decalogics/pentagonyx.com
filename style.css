@@ -19,8 +19,8 @@
 }
 
 head{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     width: 100%;
 }
 body {
@@ -30,6 +30,7 @@ body {
     background-size: cover;
     background-position: top;
     align-items: center;
+    margin: 0;
 }
 
 div {
