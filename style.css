@@ -41,8 +41,8 @@ div {
 article {
     background-color: black;
     color: white;
-    border: .4em solid yellow;
-    padding: 3 3vw;
+    border: 1vw solid yellow;
+    padding: 3vh 3vw;
     margin: 2vh;
     font-size: 3vh;
     text-align: center;
@@ -50,7 +50,8 @@ article {
     border-radius: 2em;
     justify-content: center;
     overflow-x: hidden;
-    width: 80vw;
+    width: 75vw;
+    position: relative;
 }
 
 p {
