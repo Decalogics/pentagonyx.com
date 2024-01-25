@@ -42,7 +42,7 @@ article {
     background-color: black;
     color: white;
     border: 1vw solid yellow;
-    padding: 3vh 3vw;
+    padding: 3vh 0;
     margin: 2vh;
     font-size: 3vh;
     text-align: center;
@@ -92,15 +92,20 @@ h1 {
 /*iframe shit                                                 ashgfsdhhdfhgdfshdgsfhsdfg*/
 #stream {
     float: left;
-    display: flex;
+    margin: 0%;
+    padding: 0%;
+}
+#streamBox {
+    margin: 0%;
+    padding: 0%;
 }
 iframe {
     height: 48vw;
     width: 100%;
     display: flex;
     float: left;
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
 }
 
 .bullet {
