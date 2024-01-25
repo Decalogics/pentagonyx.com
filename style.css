@@ -6,8 +6,8 @@
 #logo {
     width: 25vh;
     padding: 0;
-    padding-top: 8vw;
-    overflow-x: hidden
+    padding-top: 1vw;
+    overflow-x: hidden;
 }
 
 .wrapper {
@@ -36,14 +36,14 @@ body {
 div {
     position: relative;
     display: block;
+    padding: 3vh 0;
+    margin: 2vh;
 }
 
 article {
     background-color: black;
     color: white;
     border: 1vw solid yellow;
-    padding: 3vh 0;
-    margin: 2vh;
     font-size: 3vh;
     text-align: center;
     font-family: 'Times New Roman', 'Comic Sans MS';
@@ -89,19 +89,14 @@ h1 {
     font-size: 6vw;
 }
 
-/*iframe shit                                                 ashgfsdhhdfhgdfshdgsfhsdfg*/
-#stream {
-    float: left;
-    margin: 0%;
-    padding: 0%;
-}
+/*iframe shit*/
 #streamBox {
     margin: 0%;
     padding: 0%;
 }
 iframe {
-    height: 48vw;
-    width: 100%;
+    height: 42.1875vw;
+    width: 75vw;
     display: flex;
     float: left;
     margin: 0%;
@@ -187,6 +182,7 @@ iframe {
     margin: 0;
     padding: 0;
     list-style: none;
+    position: relative;
 }
 .seconddropdown>li{
 	background-color: black;
@@ -196,6 +192,7 @@ iframe {
 	display: none;
 	width: 25%;
 	float: left;
+    
 }
 ul.mainul li a {
 	text-decoration: none;
@@ -204,6 +201,7 @@ ul.mainul li a {
 }
 ul.mainul li a:hover {
 	background-color: #f79756;
+    
 }
 .top:hover .sub {
 	display: block;
