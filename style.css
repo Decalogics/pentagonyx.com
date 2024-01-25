@@ -168,9 +168,9 @@ iframe {
 .top{
 	float: left;
 	width: 25%;
-	height: 40px;
+	height: 8vh;
 	background-color: black;
-	line-height: 40px;
+	line-height: 8vh;
 	display: block;
 	text-align: center;
 	font-size: 90%;
