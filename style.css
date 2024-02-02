@@ -18,11 +18,12 @@
     align-items: center;
 }
 
-head{
+head {
     margin: 0;
     padding: 0;
     width: 100%;
 }
+
 body {
 
     background-color: black;
@@ -94,6 +95,7 @@ h1 {
     margin: 0%;
     padding: 0%;
 }
+
 iframe {
     height: 42.1875vw;
     width: 75vw;
@@ -127,7 +129,6 @@ iframe {
     left: 87vw;
     rotate: -30deg;
     overflow-x: hidden;
-
 }
 
 #Okabe {
@@ -160,18 +161,24 @@ iframe {
 	padding: 0%;
 	list-style: none;
 }
+
 .top{
 	float: left;
 	width: 25%;
 	height: 8vh;
-	background-color: black;
+	background-color: #f79756;
 	line-height: 8vh;
 	display: block;
 	text-align: center;
 	font-size: 90%;
-    margin: 0;
-    padding: 0;
+    margin: 1.5vh 2vh;
+    padding: 0;    
+    border: 1vh solid black;
+    border-radius: 2em;
+    justify-content: center;
+    overflow-x: hidden;
 }
+
 .sub{
 	background-color: black;
 	opacity: .8;
@@ -184,6 +191,7 @@ iframe {
     list-style: none;
     position: relative;
 }
+
 .seconddropdown>li{
 	background-color: black;
 	line-height: 40px;
@@ -194,18 +202,23 @@ iframe {
 	float: left;
     
 }
+
 ul.mainul li a {
 	text-decoration: none;
-	color: white;
-	display: block;
+	color: black;
+    font-size: 3vw;
+    display: block;
+    overflow: hidden;
 }
+
 ul.mainul li a:hover {
 	background-color: #f79756;
-    
 }
+
 .top:hover .sub {
 	display: block;
 }
-.active{
+
+.active {
 	background-color: #f6362a;
 }
