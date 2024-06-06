@@ -31,6 +31,10 @@ body {
     background-position: top;
     align-items: center;
     margin: 0;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
 }
 
 div {
@@ -115,72 +119,40 @@ iframe {
     float: left;
     overflow-y: hidden;
     overflow-x: scroll;
-    }
+    
+}
 
 .GameLi {
     padding: 0;
     height: auto;
-    width: 25vh;
-    background-color: green;
+    width: 27%;
     float: left;
+    background-color: #FF0000;
+	margin: 2.22vw;
 }
 
 .GameImage {
     padding-left: auto;
     height: auto;
-    width: 25vh;
+    width: 100%;
     background-color: red;
+    vertical-align: middle;
 }
 
 .textInImage{
-
     font-size: 2vw;
     position: absolute;
-    bottom: -2.25vw;
-    width: 25vh;
-    float: bottom;
-    background-color: blue;
-}
-.imgleft {
-    position: absolute;
-    width: 25vw;
-    height: auto;
-    right: 87vw;
-    rotate: 30deg;
-    overflow-x: hidden;
+    bottom: -2vw;
+    text-align: center;
+    width: 100%;
+    background: black;
+    opacity: 0%;
+    transition: opacity 1s ease-in-out;
 }
 
-.imgright {
-    position: absolute;
-    width: 25vw;
-    height: auto;
-    left: 87vw;
-    rotate: -30deg;
-    overflow-x: hidden;
-}
-
-#Okabe {
-    top: 10vw;
-    width: 30vw;
-    rotate: 18deg;
-    right: 90vw;
-    overflow-x: hidden;
-}
-
-#Kurisu {
-    top: 45vw;
-    width: 32vw;
-    rotate: -50deg;
-    left: 80vw;
-    overflow-x: hidden;
-}
-
-#Flame506 {
-    top: 460vw;
-    width: 22vw;
-    rotate: -34deg;
-    left: 88vw;
-    overflow-x: hidden;
+.GameLi:hover .textInImage {
+    opacity: 100%;
+    transition: opacity 1s ease-in-out;
 }
 
 .mainul{
