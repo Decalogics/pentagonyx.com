@@ -54,7 +54,7 @@ article {
     position: relative;
 }
 
-p {
+.normalP {
     font-size: 4vmin;
     margin: 2vw;
 }
@@ -118,26 +118,27 @@ iframe {
     }
 
 .GameLi {
-    height: 30vw;
+    padding: 0;
+    height: auto;
     width: 25vh;
     background-color: green;
     float: left;
 }
 
 .GameImage {
-    display: flex;
-    flex-direction: col;
+    padding-left: auto;
     height: auto;
     width: 25vh;
     background-color: red;
 }
 
 .textInImage{
-    font-size: 2.3vw;
-    position: absolute;
-    top: 50%;
-    left: 50%;
 
+    font-size: 2vw;
+    position: absolute;
+    bottom: -2.25vw;
+    width: 25vh;
+    float: bottom;
     background-color: blue;
 }
 .imgleft {
