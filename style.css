@@ -31,9 +31,6 @@ body {
     background-position: top;
     align-items: center;
     margin: 0;
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
     
 }
 
@@ -125,17 +122,16 @@ iframe {
 .GameLi {
     padding: 0;
     height: auto;
-    width: 27%;
+    width: 26.43%;
     float: left;
     background-color: #FF0000;
-	margin: 2.22vw;
+	margin: 2.34vw;
 }
 
 .GameImage {
     padding-left: auto;
     height: auto;
     width: 100%;
-    background-color: red;
     vertical-align: middle;
 }
 
@@ -147,12 +143,12 @@ iframe {
     width: 100%;
     background: black;
     opacity: 0%;
-    transition: opacity 1s ease-in-out;
+    transition: opacity .3s ease-in-out;
 }
 
 .GameLi:hover .textInImage {
     opacity: 100%;
-    transition: opacity 1s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .mainul{
