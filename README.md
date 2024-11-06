@@ -1,2 +1,2 @@
-# pentagonyx.github.io
+# pentagonyx.com
 Pentagonyx Site
